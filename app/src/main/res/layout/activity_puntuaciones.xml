@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B8D4F0"
+        android:padding="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txtActividadGlobal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:fontFamily="casual"
+                android:text="@string/puntuaciones_globales"
+                android:textColor="#AD1457"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <TableLayout
+                android:id="@+id/tablaGlobal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:stretchColumns="1,2">
+                <!-- FILA DEL ENCABEZADO-->
+                <TableRow tools:ignore="UselessParent">
+                    <TextView
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="@string/usuario"
+                        android:textColor="#6A1B9A"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="160dp"
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="@string/actividad"
+                        android:textColor="#6A1B9A"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:fontFamily="casual"
+                        android:padding="8dp"
+                        android:text="@string/puntos"
+                        android:textColor="#6A1B9A"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnAtras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#AD1457"
+                android:fontFamily="casual"
+                android:padding="10dp"
+                android:text="@string/atras"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+

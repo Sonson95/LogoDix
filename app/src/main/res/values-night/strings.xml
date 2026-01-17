@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="utiliza_todas_las_letras_para_formar_la_palabra_correcta">Utiliza todas las letras para formar la palabra correcta:</string>
+    <string name="palabra_formada">Palabra formada:</string>
+    <string name="puntuaci_n_0">Puntuación: 0</string>
+    <string name="atr_s">Atrás</string>
+    <string name="borrar">Borrar</string>
+    <string name="validar">Validar</string>
+    <string name="puntuaci_n_final_0">Puntuación final: 0</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="puntuaciones_usuarios">Puntuaciones usuarios</string>
+    <string name="elige_la_palabra_real">Elige la palabra real</string>
+    <string name="forma_las_palabras">Forma las palabras</string>
+    <string name="escoge_la_actividad_que_quieras">Escoge la actividad que quieras</string>
+    <string name="bienvenid">Bienvenid@</string>
+    <string name="bienvenid_a_logodix">Bienvenid@ a LogoDix</string>
+    <string name="introduce_tu_correo_electr_nico">Introduce tu correo electrónico</string>
+    <string name="introduce_la_contrase_a">Introduce la contraseña</string>
+    <string name="iniciar_sesi_n">Iniciar sesión</string>
+    <string name="no_tienes_cuenta">¿No tienes cuenta?</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="has_olvidado_tu_contrase_a">¿Has olvidado tu contraseña?</string>
+    <string name="recuperar_contrase_a">Recuperar contraseña</string>
+    <string name="logo">Logo</string>
+    <string name="todo">TODO</string>
+    <string name="puntuaciones_globales">Puntuaciones Globales</string>
+    <string name="usuario">Usuario</string>
+    <string name="actividad">Actividad</string>
+    <string name="puntos">Puntos</string>
+    <string name="atras">Atras</string>
+    <string name="introduce_tu_email">Introduce tu email</string>
+    <string name="recuperar_password">Recuperar Contraseña</string>
+    <string name="obtener_pregunta_de_seguridad">Obtener Pregunta de Seguridad</string>
+    <string name="pregunta_de_seguridad">Pregunta de Seguridad</string>
+    <string name="ingresa_tu_respuesta">Ingresa tu respuesta</string>
+    <string name="nueva_contrase_a">Nueva Contraseña</string>
+    <string name="confirmar_contrase_a">Confirmar Contraseña</string>
+    <string name="actualizar_contrase_a">Actualizar Contraseña</string>
+    <string name="nete_a_logodix">¡Únete a LogoDix!</string>
+    <string name="introduce_tu_nombre_de_usuario">Introduce tu nombre de usuario</string>
+    <string name="introduce_tu_correo">Introduce tu correo</string>
+    <string name="confirma_tu_contrase_a">Confirma tu contraseña</string>
+    <string name="introduce_tu_pregunta_de_seguridad">Introduce tu pregunta de seguridad</string>
+    <string name="introduce_tu_respuesta_de_seguridad">Introduce tu respuesta de seguridad</string>
+    <string name="crea_tu_cuenta">Crea tu cuenta</string>
+</resources>

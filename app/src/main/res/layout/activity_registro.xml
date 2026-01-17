@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E3F2FD"
+    android:padding="24dp"
+    tools:context=".RegistroActivity">
+
+    <TextView
+        android:id="@+id/txtUnete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/nete_a_logodix"
+        android:textAlignment="center"
+        android:textColor="#B35CE7"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtRegistroNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="Nombre de usuario"
+        android:background="@android:drawable/editbox_background"
+        android:fontFamily="sans-serif"
+        android:hint="@string/introduce_tu_nombre_de_usuario"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:textColor="#333333"
+        android:textColorHint="#5C6BC0" />
+
+    <EditText
+        android:id="@+id/txtRegistroCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Email"
+        android:hint="@string/introduce_tu_correo"
+        android:inputType="textEmailAddress"
+        android:padding="14dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#5C6BC0"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/txtRegistroPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Password"
+        android:hint="@string/introduce_tu_contrase_a"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#5C6BC0"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Confirmar password"
+        android:hint="@string/confirma_tu_contrase_a"
+        android:inputType="textPassword"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#5C6BC0"
+        android:textColor="#333333" />
+
+
+    <EditText
+        android:id="@+id/txtRegistroPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Pregunta de seguridad"
+        android:hint="@string/introduce_tu_pregunta_de_seguridad"
+        android:inputType="text"
+        android:padding="14dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#5C6BC0"
+        android:textColor="#333333" />
+
+
+    <EditText
+        android:id="@+id/txtRegistroRespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Respuesta de seguridad"
+        android:hint="@string/introduce_tu_respuesta_de_seguridad"
+        android:inputType="text"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColorHint="#5C6BC0"
+        android:textColor="#333333" />
+
+    <Button
+        android:id="@+id/btnCreaCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#BD7CE6"
+        android:fontFamily="casual"
+        android:padding="14dp"
+        android:text="@string/crea_tu_cuenta"
+        android:textAlignment="center"
+        android:textColor="#F6EFEF"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</LinearLayout>
